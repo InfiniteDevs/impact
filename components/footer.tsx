@@ -1,7 +1,3 @@
-"use client";
-import React, { useState } from "react";
-
-
 export default function Footer() {
   return (
     <div className="border-t border-neutral-100 dark:border-white/[0.1] px-8 py-20 bg-white dark:bg-black">
