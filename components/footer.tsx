@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 
-export const Footer = React.memo(() => {
+export const function Footer() => {
   return (
     <div className="border-t border-neutral-100 dark:border-white/[0.1] px-8 py-20 bg-white dark:bg-black">
       <div className="max-w-7xl mx-auto text-sm text-neutral-500 flex sm:flex-row flex-col justify-between items-start ">
@@ -93,4 +93,4 @@ export const Footer = React.memo(() => {
       </div>
     </div>
   );
-});
+};
