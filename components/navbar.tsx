@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/navbar-menu";
 import { cn } from "@/utils/cn";
 
-export default function MyComponent({ className }: { className?: string }) {
+export default function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
     return (
       <div
@@ -65,5 +65,4 @@ export default function MyComponent({ className }: { className?: string }) {
         </Menu>
       </div>
     );
-  }
-);
+  };
