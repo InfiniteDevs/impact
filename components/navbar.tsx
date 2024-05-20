@@ -8,8 +8,7 @@ import {
 } from "@/components/ui/navbar-menu";
 import { cn } from "@/utils/cn";
 
-export const Navbar = React.memo(
-  ({ className }: { className?: string }) => {
+export default function MyComponent({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
     return (
       <div
