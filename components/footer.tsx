@@ -35,6 +35,7 @@ export default function Footer() {
           <div>
             A product by{" "}
             <a
+              href="/"
               target="__blank"
               className="dark:text-sky-500 text-neutral-600 font-medium"
             >
@@ -56,9 +57,9 @@ export default function Footer() {
           <div className="flex justify-center space-y-4 flex-col mt-4">
             <a
               className="transition-colors hover:text-foreground/80 text-foreground/60"
-              href="/components"
+              href="/showcase"
             >
-              Components
+              Showcase
             </a>
             <a
               className="transition-colors hover:text-foreground/80 text-foreground/60"
@@ -66,25 +67,19 @@ export default function Footer() {
             >
               Pricing
             </a>
-            <a
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
-              href="/tools/box-shadows"
-            >
-              Box Shadows
-            </a>
           </div>
           <div className="flex justify-center space-y-4 flex-col mt-4">
             <a
               target="__blank"
               className="transition-colors hover:text-foreground/80 text-foreground/60"
-              href="https://twitter.com/aceternitylabs"
+              href="https://youtube.com/"
             >
-              Twitter
+              Youtube
             </a>
             <a
               target="__blank"
               className="transition-colors hover:text-foreground/80 text-foreground/60"
-              href="https://discord.gg/ftZbQvCdN7"
+              href="https://discord.gg/"
             >
               Discord
             </a>
