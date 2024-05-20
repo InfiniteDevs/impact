@@ -130,21 +130,3 @@ export const testimonials = [
 ];
 
 export const words = ["better", "cute", "beautiful", "modern"];
-export const join_words = [
-    {
-      text: "Get",
-    },
-    {
-      text: "awesome",
-    },
-    {
-      text: "websites",
-    },
-    {
-      text: "with",
-    },
-    {
-      text: "Impact.",
-      className: "text-blue-500 dark:text-blue-500",
-    },
-  ];
