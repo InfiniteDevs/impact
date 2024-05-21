@@ -53,15 +53,15 @@ export default function Footer() {
           <div className="flex justify-center space-y-4 flex-col mt-4">
             <a
               className="transition-colors hover:text-foreground/80 text-foreground/60"
-              href="/showcase"
-            >
-              Showcase
-            </a>
-            <a
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
               href="/pricing"
             >
               Pricing
+            </a>
+            <a
+              className="transition-colors hover:text-foreground/80 text-foreground/60"
+              href="/contact"
+            >
+              Create a website
             </a>
           </div>
           <div className="flex justify-center space-y-4 flex-col mt-4">
