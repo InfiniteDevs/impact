@@ -9,24 +9,25 @@ export default function Testimonials() {
           <figure className="flex w-full flex-col items-start p-8">
             <blockquote className="mb-auto text-base/6 text-gray-950 dark:text-white">
               <p className="relative before:absolute before:right-full before:top-0 before:content-[&#x27;“&#x27;] after:content-[&#x27;”&#x27;]">
-                I&#x27;d highly recommend working with Manu on a site redesign.
-                We came to Manu with a basic website shell. Manu quickly took
-                our rough concept and transformed it into a polished,
-                user-friendly website. His design sense is impeccable, and he
-                has a keen eye for detail. One of Manu&#x27;s greatest strengths
-                is his ability to adapt to the ever-changing needs of working in
-                a fast-paced environment. As an early-stage start-up, we threw a
-                lot of direction changes and rapid iterations his way. Manu took
-                everything in stride, demonstrating excellent communication
-                skills and a willingness to collaborate. He was patient with our
-                feedback and always open to meeting and discussing new ideas,
-                ensuring the final product aligned with our evolving vision. We
-                had originally scoped our project with Manu to be a limited
-                engagement for a few website pages. Manu went beyond our
-                expectation, working quickly, comprehensively and across a
-                larger scope than envisioned, so we expanded the engagement.
-                I&#x27;d recommend Manu to any company, especially startups,
-                looking for a talented and adaptable website developer.
+                I&#x27;d highly recommend working with Impact on a site
+                redesign. We came to Impact with a basic website shell. Impact
+                quickly took our rough concept and transformed it into a
+                polished, user-friendly website. His design sense is impeccable,
+                and he has a keen eye for detail. One of Impact&#x27;s greatest
+                strengths is his ability to adapt to the ever-changing needs of
+                working in a fast-paced environment. As an early-stage start-up,
+                we threw a lot of direction changes and rapid iterations his
+                way. Impact took everything in stride, demonstrating excellent
+                communication skills and a willingness to collaborate. He was
+                patient with our feedback and always open to meeting and
+                discussing new ideas, ensuring the final product aligned with
+                our evolving vision. We had originally scoped our project with
+                Impact to be a limited engagement for a few website pages.
+                Impact went beyond our expectation, working quickly,
+                comprehensively and across a larger scope than envisioned, so we
+                expanded the engagement. I&#x27;d recommend Impact to any
+                company, especially startups, looking for a talented and
+                adaptable website developer.
               </p>
             </blockquote>
             <figcaption className="mt-6 flex w-full items-center justify-between">
@@ -61,12 +62,12 @@ export default function Testimonials() {
           <figure className="flex w-full flex-col items-start p-8">
             <blockquote className="mb-auto text-base/6 text-gray-950 dark:text-white">
               <p className="relative before:absolute before:right-full before:top-0 before:content-[&#x27;“&#x27;] after:content-[&#x27;”&#x27;]">
-                Manu is the man! He is the best front-end developer I have
+                Impact is the man! He is the best front-end developer I have
                 worked with. He took the requirements and quite literally ran
                 with them. We are super happy with the result and product we
                 got. He&#x27;s very intelligent, experienced, friendly, and
                 helpful. To anyone reading this - I can&#x27;t recommend this
-                Manu enough, your job will be done exceptionally well, and you
+                Impact enough, your job will be done exceptionally well, and you
                 will be delighted with the end result.
               </p>
             </blockquote>
@@ -120,33 +121,33 @@ export default function Testimonials() {
                 <rect
                   width="100%"
                   height="100%"
-                  stroke-width="0"
+                  strokeWidth="0"
                   fill="url(#:S1:)"
                 ></rect>
                 <svg x="-12" y="4" className="overflow-visible">
                   <rect
-                    stroke-width="0"
+                    strokeWidth="0"
                     width="21"
                     height="21"
                     x="80"
                     y="60"
                   ></rect>
                   <rect
-                    stroke-width="0"
+                    strokeWidth="0"
                     width="21"
                     height="21"
                     x="40"
                     y="20"
                   ></rect>
                   <rect
-                    stroke-width="0"
+                    strokeWidth="0"
                     width="21"
                     height="21"
                     x="140"
                     y="60"
                   ></rect>
                   <rect
-                    stroke-width="0"
+                    strokeWidth="0"
                     width="21"
                     height="21"
                     x="200"
@@ -159,18 +160,18 @@ export default function Testimonials() {
           <figure className="flex w-full flex-col items-start p-8">
             <blockquote className="mb-auto text-base/6 text-gray-950 dark:text-white">
               <p className="relative before:absolute before:right-full before:top-0 before:content-[&#x27;“&#x27;] after:content-[&#x27;”&#x27;] text-xl font-medium">
-                I&#x27;ve been working with Manu for a couple of months now and
-                I can&#x27;t express enough how impressed I am with his talent.
-                Manu&#x27;s JavaScript/React web UI programming skills are
-                through the roof. He&#x27;s helped take a boring website and
+                I&#x27;ve been working with Impact for a couple of months now
+                and I can&#x27;t express enough how impressed I am with his
+                talent. Impact&#x27;s JavaScript/React web UI programming skills
+                are through the roof. He&#x27;s helped take a boring website and
                 made it highly dynamic and visually compelling. What amazes me
                 is how fast he works and how easy it is to coordinate with him.
                 He jumped right into an Astro framework project, and we have a
                 streamlined workflow that provides him access to Figma, a GitHub
                 repo, and a Slack channel. He&#x27;s extremely responsive and
-                communication is brief, efficient, and effective. If Manu says
+                communication is brief, efficient, and effective. If Impact says
                 he can do something, rest assured he can, he will, and it will
-                be awesome. I can&#x27;t speak highly enough of Manu; if
+                be awesome. I can&#x27;t speak highly enough of Impact; if
                 you&#x27;re considering working with him, do it; you&#x27;ll be
                 glad you did.
               </p>
@@ -225,33 +226,33 @@ export default function Testimonials() {
                 <rect
                   width="100%"
                   height="100%"
-                  stroke-width="0"
+                  strokeWidth="0"
                   fill="url(#:S2:)"
                 ></rect>
                 <svg x="-12" y="4" className="overflow-visible">
                   <rect
-                    stroke-width="0"
+                    strokeWidth="0"
                     width="21"
                     height="21"
                     x="80"
                     y="60"
                   ></rect>
                   <rect
-                    stroke-width="0"
+                    strokeWidth="0"
                     width="21"
                     height="21"
                     x="40"
                     y="20"
                   ></rect>
                   <rect
-                    stroke-width="0"
+                    strokeWidth="0"
                     width="21"
                     height="21"
                     x="140"
                     y="60"
                   ></rect>
                   <rect
-                    stroke-width="0"
+                    strokeWidth="0"
                     width="21"
                     height="21"
                     x="200"
@@ -264,7 +265,7 @@ export default function Testimonials() {
           <figure className="flex w-full flex-col items-start p-8">
             <blockquote className="mb-auto text-base/6 text-gray-950 dark:text-white">
               <p className="relative before:absolute before:right-full before:top-0 before:content-[&#x27;“&#x27;] after:content-[&#x27;”&#x27;] text-xl font-medium">
-                Manu is an artist, I didn&#x27;t know what I wanted when we
+                Impact is an artist, I didn&#x27;t know what I wanted when we
                 started, but his intuition and eye for design more than made up
                 for it. We went from “I want something dark theme and high tech”
                 to a fully built website in a week. He is constantly advancing
@@ -309,7 +310,7 @@ export default function Testimonials() {
                 additional out-of-scope requests as well. Good open-minded
                 approach to suggestions, ideas and feedback and a humble way to
                 deal with differences in understanding. An excellent experience
-                overall, we will certainly re-engage Manu for future
+                overall, we will certainly re-engage Impact for future
                 requirements, can&#x27;t wait to do another job together.
               </p>
             </blockquote>
@@ -345,10 +346,10 @@ export default function Testimonials() {
           <figure className="flex w-full flex-col items-start p-8">
             <blockquote className="mb-auto text-base/6 text-gray-950 dark:text-white">
               <p className="relative before:absolute before:right-full before:top-0 before:content-[&#x27;“&#x27;] after:content-[&#x27;”&#x27;]">
-                Manu is a genius. He is open-minded, curious and deeply invested
-                in the projects he chooses to work on. He takes your vision and
-                brings it to life -- and is a true partner in the process.
-                He&#x27;s brilliant!
+                Impact is a genius. He is open-minded, curious and deeply
+                invested in the projects he chooses to work on. He takes your
+                vision and brings it to life -- and is a true partner in the
+                process. He&#x27;s brilliant!
               </p>
             </blockquote>
             <figcaption className="mt-6 flex w-full items-center justify-between">
@@ -384,10 +385,10 @@ export default function Testimonials() {
             <blockquote className="mb-auto text-base/6 text-gray-950 dark:text-white">
               <p className="relative before:absolute before:right-full before:top-0 before:content-[&#x27;“&#x27;] after:content-[&#x27;”&#x27;]">
                 This service exceeded our expectations, since not only was the
-                development technically flawless, but Manu and his team also
+                development technically flawless, but Impact and his team also
                 acted as strategic partners by encouraging us to add a project
                 page and testimonials. We are very happy with our decision to
-                hire Manu.
+                hire Impact.
               </p>
             </blockquote>
             <figcaption className="mt-6 flex w-full items-center justify-between">
@@ -422,7 +423,7 @@ export default function Testimonials() {
           <figure className="flex w-full flex-col items-start p-8">
             <blockquote className="mb-auto text-base/6 text-gray-950 dark:text-white">
               <p className="relative before:absolute before:right-full before:top-0 before:content-[&#x27;“&#x27;] after:content-[&#x27;”&#x27;]">
-                Manu was quick to respond, very professional, and delivered a
+                Impact was quick to respond, very professional, and delivered a
                 website within a week. Very good job. Looking forward to
                 collaborating again
               </p>
@@ -459,7 +460,7 @@ export default function Testimonials() {
           <figure className="flex w-full flex-col items-start p-8">
             <blockquote className="mb-auto text-base/6 text-gray-950 dark:text-white">
               <p className="relative before:absolute before:right-full before:top-0 before:content-[&#x27;“&#x27;] after:content-[&#x27;”&#x27;]">
-                Manu was such a pleasure to work with. Talented, communicative
+                Impact was such a pleasure to work with. Talented, communicative
                 and fast. Highly recommend!
               </p>
             </blockquote>
@@ -495,7 +496,7 @@ export default function Testimonials() {
           <figure className="flex w-full flex-col items-start p-8">
             <blockquote className="mb-auto text-base/6 text-gray-950 dark:text-white">
               <p className="relative before:absolute before:right-full before:top-0 before:content-[&#x27;“&#x27;] after:content-[&#x27;”&#x27;]">
-                The work that Manu did laid the foundation of online education
+                The work that Impact did laid the foundation of online education
                 that we provide today. The website he built for us is used by
                 thousands of students every day. He took the requirements and
                 built the best platform with his expertise without us worrying.
