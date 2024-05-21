@@ -20,7 +20,7 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <BentoGrid className="max-w-4xl mx-auto">
+      <BentoGrid className="max-w-4xl mx-auto pb-16">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
