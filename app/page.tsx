@@ -1,33 +1,55 @@
 "use client";
-
-import { testimonials } from "@/config";
-import Link from "next/link";
-
+import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 import { Spotlight } from "@/components/ui/spotlight";
 import { FlipWords } from "@/components/ui/flip-words";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import Testimonials from "@/components/sections/testimonials";
 import HeroIcons from '@/components/sections/hero-icon'
-import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 
 export default function Home() {
   const words = ["faster", "better", "beautiful", "modern"];
-  const join_words = [
+  const people = [
     {
-      text: "Get",
+      id: 1,
+      name: "John Doe",
+      designation: "Software Engineer",
+      image:
+        "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
     },
     {
-      text: "awesome",
+      id: 2,
+      name: "Robert Johnson",
+      designation: "Product Manager",
+      image:
+        "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     {
-      text: "websites",
+      id: 3,
+      name: "Jane Smith",
+      designation: "Data Scientist",
+      image:
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
     },
     {
-      text: "with",
+      id: 4,
+      name: "Emily Davis",
+      designation: "UX Designer",
+      image:
+        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
     },
     {
-      text: "Impact.",
-      className: "text-blue-500 dark:text-blue-500",
+      id: 5,
+      name: "Tyler Durden",
+      designation: "Soap Developer",
+      image:
+        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+    },
+    {
+      id: 6,
+      name: "Dora",
+      designation: "The Explorer",
+      image:
+        "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
     },
   ];
   return (
@@ -76,14 +98,15 @@ export default function Home() {
                 </span>
               </h1>
               <h2 className="relative font-regular text-sm sm:text-xl text-zinc-500 tracking-wide mb-8 text-left max-w-2xl antialiased leading-loose __className_b15a0a">
-                 Dreaming of having your own website? You're in the right place! Share your contact info, and we'll get in touch with you soon.
+                Dreaming of having your own website? You're in the right place!
+                Share your contact info, and we'll get in touch with you soon.
               </h2>
               <div className="flex sm:flex-row flex-col space-y-2 justify-center sm:space-y-0 sm:space-x-4 sm:justify-start mb-4 w-full">
                 <a
                   className="bg-slate-900 no-underline flex space-x-2 group cursor-pointer relative hover:shadow-2xl transition duration-200 shadow-zinc-900 p-px font-semibold text-white px-4 py-2 w-full sm:w-52 h-14 rounded-2xl text-sm text-center items-center justify-center"
                   href="/contact"
                 >
-                 Contact
+                  Contact
                 </a>
                 <a
                   className="w-full sm:w-52 text-sm bg-white bg-black dark:bg-black h-14 border border-transparent  dark:text-white dark:border-white flex justify-center items-center rounded-2xl hover:shadow-lg transition duration-200 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"
@@ -109,17 +132,50 @@ export default function Home() {
           />
         ))}
       </BentoGrid>
-      <div className="flex flex-col items-center justify-center h-[20rem]">
-        <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base ">
-          The road to success starts from here
-        </p>
-        <TypewriterEffectSmooth words={join_words} />
-        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-          <Link href="/contact">
-            <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
-              Create your own
-            </button>
-          </Link>
+      <div className="w-full sm:px-6 sm:py-10 lg:px-8 bg-white dark:bg-black">
+        <div className="mx-auto max-w-7xl py-24 ">
+          <div className="relative isolate overflow-hidden bg-gradient-to-br from-slate-900 to-slate-500 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+            <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto py-10 lg:py-10 lg:text-left">
+              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl mt-4">
+                Let&#x27; talk and make it happen
+              </h2>
+              <p className="mt-6 text-lg leading-8 text-neutral-200">
+                <span data-br=":R9iuul5a:" data-brr="1">
+                  Reach out to us, and we&#x27;ll respond as soon as possible.
+                </span>
+              </p>
+              <button
+                pirsch-event="CTA Click"
+                className="bg-slate-900 no-underline w-full sm:w-fit group mb-4 cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-base font-semibold leading-6  text-white block mt-6"
+              >
+                <span className="absolute inset-0 overflow-hidden rounded-full">
+                  <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
+                </span>
+                <div className="relative flex space-x-2 items-center justify-center z-10 rounded-full bg-zinc-950 py-4 px-8 ring-1 ring-white/10 ">
+                  <span>Talk to us</span>
+                </div>
+                <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40"></span>
+              </button>
+              <div className="mt-10">
+                <div className="flex flex-row mb-10 lg:justify-start justify-center items-center">
+                  <AnimatedTooltip items={people} />
+                </div>
+              </div>
+            </div>
+            <div className="relative  hidden lg:flex">
+              <img
+                alt="screenshot"
+                fetchPriority="high"
+                width="1824"
+                height="1800"
+                decoding="async"
+                data-nimg="1"
+                className="absolute left-1/2 -translate-x-1/2 lg:-translate-x-0 lg:left-0 -top-2 bottom-0 w-[30rem] lg:w-[45rem]  max-w-none  "
+                srcSet="/_next/image?url=%2Fimages%2Fcta.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcta.png&amp;w=3840&amp;q=75 2x"
+                src="/_next/image?url=%2Fimages%2Fcta.png&amp;w=3840&amp;q=75"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>
