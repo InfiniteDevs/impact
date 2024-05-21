@@ -41,7 +41,7 @@ export default function BackgroundGradientDemo() {
                       pause or cancel anytime
                     </span>
                     <span className="text-gray-900 text-4xl font-bold tracking-tight dark:text-white">
-                      ₹3499
+                      ₹2499
                     </span>
                   </p>
                   <p className="text-gray-600 mt-6 text-sm leading-7 dark:text-neutral-200 h-24 md:h-32 xl:h-24">
@@ -257,7 +257,7 @@ export default function BackgroundGradientDemo() {
                       pause or cancel anytime
                     </span>
                     <span className="text-white text-4xl font-bold tracking-tight dark:text-white">
-                      ₹4995
+                      ₹3599
                     </span>
                   </p>
                   <p className="text-gray-300 mt-6 text-sm leading-7 dark:text-neutral-200 h-24 md:h-32 xl:h-24">
@@ -517,7 +517,7 @@ export default function BackgroundGradientDemo() {
                       starts at
                     </span>
                     <span className="text-gray-900 text-4xl font-bold tracking-tight dark:text-white">
-                      ₹12,499
+                      ₹5499
                     </span>
                   </p>
                   <p className="text-gray-600 mt-6 text-sm leading-7 dark:text-neutral-200 h-24 md:h-32 xl:h-24">
