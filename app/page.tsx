@@ -76,21 +76,20 @@ export default function Home() {
                 </span>
               </h1>
               <h2 className="relative font-regular text-sm sm:text-xl text-zinc-500 tracking-wide mb-8 text-left max-w-2xl antialiased leading-loose __className_b15a0a">
-                Copy paste the most trending components and use them in your
-                websites without having to worry about styling and animations.
+                 Dreaming of having your own website? You're in the right place! Share your contact info, and we'll get in touch with you soon.
               </h2>
               <div className="flex sm:flex-row flex-col space-y-2 justify-center sm:space-y-0 sm:space-x-4 sm:justify-start mb-4 w-full">
                 <a
                   className="bg-slate-900 no-underline flex space-x-2 group cursor-pointer relative hover:shadow-2xl transition duration-200 shadow-zinc-900 p-px font-semibold text-white px-4 py-2 w-full sm:w-52 h-14 rounded-2xl text-sm text-center items-center justify-center"
-                  href="/components"
+                  href="/contact"
                 >
-                  Browse Components
+                 Contact
                 </a>
                 <a
                   className="w-full sm:w-52 text-sm bg-white bg-black dark:bg-black h-14 border border-transparent  dark:text-white dark:border-white flex justify-center items-center rounded-2xl hover:shadow-lg transition duration-200 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"
                   href="/pricing"
                 >
-                  Custom websites?
+                  Pricing
                 </a>
               </div>
               <HeroIcons />
