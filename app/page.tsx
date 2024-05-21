@@ -31,9 +31,6 @@ export default function Home() {
     <>
       <HeroParallax products={products} />
       <div className="h-[30rem] flex justify-center items-center px-4 ">
-        <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
-          Customer reivews
-        </div>
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
