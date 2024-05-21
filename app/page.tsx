@@ -99,8 +99,9 @@ export default function Home() {
                 </span>
               </h1>
               <h2 className="relative font-regular text-sm sm:text-xl text-zinc-500 tracking-wide mb-8 text-left max-w-2xl antialiased leading-loose __className_b15a0a">
-                Dreaming of having your own website? You're in the right place!
-                Share your contact info, and we'll get in touch with you soon.
+                Dreaming of having your own website? You&apos;re in the right
+                place! Share your contact info, and we&apos;ll get in touch with
+                you soon.
               </h2>
               <div className="flex sm:flex-row flex-col space-y-2 justify-center sm:space-y-0 sm:space-x-4 sm:justify-start mb-4 w-full">
                 <a
