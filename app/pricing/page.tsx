@@ -41,7 +41,7 @@ export default function BackgroundGradientDemo() {
                       pause or cancel anytime
                     </span>
                     <span className="text-gray-900 text-4xl font-bold tracking-tight dark:text-white">
-                      $3499
+                      ₹3499
                     </span>
                   </p>
                   <p className="text-gray-600 mt-6 text-sm leading-7 dark:text-neutral-200 h-24 md:h-32 xl:h-24">
@@ -61,8 +61,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -83,8 +83,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -105,8 +105,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -127,8 +127,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -149,8 +149,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -171,8 +171,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -193,8 +193,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -215,8 +215,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -257,7 +257,7 @@ export default function BackgroundGradientDemo() {
                       pause or cancel anytime
                     </span>
                     <span className="text-white text-4xl font-bold tracking-tight dark:text-white">
-                      $4995
+                      ₹4995
                     </span>
                   </p>
                   <p className="text-gray-300 mt-6 text-sm leading-7 dark:text-neutral-200 h-24 md:h-32 xl:h-24">
@@ -277,8 +277,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-400 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -299,8 +299,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-400 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -321,8 +321,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-400 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -343,8 +343,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-400 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -365,8 +365,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-400 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -387,8 +387,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-400 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -409,8 +409,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-400 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -431,8 +431,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-400 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -453,8 +453,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-400 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -475,8 +475,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-400 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -517,7 +517,7 @@ export default function BackgroundGradientDemo() {
                       starts at
                     </span>
                     <span className="text-gray-900 text-4xl font-bold tracking-tight dark:text-white">
-                      $12,499
+                      ₹12,499
                     </span>
                   </p>
                   <p className="text-gray-600 mt-6 text-sm leading-7 dark:text-neutral-200 h-24 md:h-32 xl:h-24">
@@ -538,8 +538,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -560,8 +560,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -582,8 +582,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -604,8 +604,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -626,8 +626,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -648,8 +648,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -670,8 +670,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -692,8 +692,8 @@ export default function BackgroundGradientDemo() {
                         fill="none"
                         stroke="currentColor"
                         stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="text-emerald-600 h-6 w-5 flex-none"
                         aria-hidden="true"
                       >
@@ -875,7 +875,7 @@ export default function BackgroundGradientDemo() {
                 </figcaption>
               </figure>
             </li>
-            
+
             <li className="flex rounded-xl bg-gray-50 dark:bg-[#161618] ring-1 ring-gray-950/5 shadow relative overflow-hidden">
               <figure className="flex w-full flex-col items-start p-8">
                 <blockquote className="mb-auto text-base/6 text-gray-950 dark:text-white">
