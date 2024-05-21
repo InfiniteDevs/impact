@@ -2,7 +2,7 @@
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import { cn } from "@/utils/cn";
 import React from "react";
-import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
+import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 
 export default function Home() {
   return (
