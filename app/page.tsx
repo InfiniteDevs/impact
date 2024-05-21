@@ -171,8 +171,8 @@ export default function Home() {
                 decoding="async"
                 data-nimg="1"
                 className="absolute left-1/2 -translate-x-1/2 lg:-translate-x-0 lg:left-0 -top-2 bottom-0 w-[30rem] lg:w-[45rem]  max-w-none  "
-                srcSet="/_next/image?url=%2Fimages%2Fcta.png&amp;w=1920&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcta.png&amp;w=3840&amp;q=75 2x"
-                src="/_next/image?url=%2Fimages%2Fcta.png&amp;w=3840&amp;q=75"
+                srcSet="https://ui.aceternity.com/_next/image?url=%2Fimages%2Fcta.png&w=1920&q=75 1x, https://ui.aceternity.com/_next/image?url=%2Fimages%2Fcta.png&w=1920&q=75"
+                src="https://ui.aceternity.com/_next/image?url=%2Fimages%2Fcta.png&w=1920&q=75"
               />
             </div>
           </div>
