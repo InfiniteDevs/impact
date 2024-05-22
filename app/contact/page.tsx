@@ -1,6 +1,6 @@
 "use client";
 import axios from "axios";
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/utils/cn";
@@ -17,6 +17,7 @@ export default function ContactForm() {
   const [emailError, setEmailError] = useState("");
   const [phoneError, setPhoneError] = useState("");
   const [textError, setTextError] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   const sendEmail = async function name(
     event: React.FormEvent<HTMLFormElement>
@@ -28,6 +29,10 @@ export default function ContactForm() {
     setEmailError("");
     setPhoneError("");
     setTextError("");
+
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
 
     let isValid = true;
     if (!firstNameRef.current?.value) {
@@ -85,7 +90,7 @@ export default function ContactForm() {
       } catch (error) {
         console.error(error);
       }
-    }
+    } 
   };
   return (
     <div className="mt-16 mb-16">
@@ -168,6 +173,13 @@ export default function ContactForm() {
               Send &rarr;
               <BottomGradient />
             </button>
+            {isLoading ? (
+              <></>
+            ) : (
+              <p className="items-center text-center pt-4 text-blue-500 text-md">
+                Sent Successfully
+              </p>
+            )}
             <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[1px] w-full" />
           </form>
         </div>
