@@ -1,14 +1,11 @@
 "use client";
-
+import axios from "axios";
 import React, { useRef, useState } from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/utils/cn";
-import { Resend } from "resend";
-import { EmailTemplate } from "@/templates/email";
 
 export default function ContactForm() {
-  const resend = new Resend("re_vAi4ytTc_FNZ48fw9rYREmDoQRfZK76pu");
   const firstNameRef = useRef<HTMLInputElement | null>(null);
   const lastNameRef = useRef<HTMLInputElement | null>(null);
   const emailRef = useRef<HTMLInputElement | null>(null);
@@ -63,18 +60,31 @@ export default function ContactForm() {
     }
 
     if (isValid) {
-      await resend.emails.send({
-        from: "Impact <onboarding@resend.dev>",
-        to: ["avalynndev@gmail.com"],
-        subject: "New Impact Order",
-        react: EmailTemplate({
-          firstName: `${firstNameRef.current?.value}`,
-          lastName: `${lastNameRef.current?.value}`,
-          email: `${emailRef.current?.value}`,
-          number: `${phoneRef.current?.value || "no phone num"}`,
-          text: `${textRef.current?.value || "no text"}`,
-        }) as React.ReactElement,
-      });
+      try {
+        const firstName = firstNameRef.current?.value;
+        const lastName = lastNameRef.current?.value;
+        const email = emailRef.current?.value;
+        const phone = phoneRef.current?.value;
+        const text = textRef.current?.value;
+        const data = {
+          firstName: firstName,
+          lastName: lastName,
+          email: email,
+          phone: phone,
+          text: text,
+        };
+        const response = await fetch("/api/send", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        });
+        const responseData = await response.json();
+        console.log(responseData);
+      } catch (error) {
+        console.error(error);
+      }
     }
   };
   return (
