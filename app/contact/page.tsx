@@ -8,7 +8,7 @@ import { Resend } from "resend";
 import { EmailTemplate } from "@/templates/email";
 
 export default function ContactForm() {
-  const resend = new Resend(process.env.RESEND_API);
+  const resend = new Resend("re_vAi4ytTc_FNZ48fw9rYREmDoQRfZK76pu");
   const firstNameRef = useRef<HTMLInputElement | null>(null);
   const lastNameRef = useRef<HTMLInputElement | null>(null);
   const emailRef = useRef<HTMLInputElement | null>(null);
