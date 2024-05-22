@@ -131,7 +131,7 @@ export default function ContactForm() {
               <Input
                 id="email"
                 placeholder="imaginee@lol.com / avalynndev"
-                type="email"
+                type="text"
                 ref={emailRef}
               />
               {emailError && (
