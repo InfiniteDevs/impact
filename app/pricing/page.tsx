@@ -41,7 +41,7 @@ export default function Pricing() {
                       pause or cancel anytime
                     </span>
                     <span className="text-gray-900 text-4xl font-bold tracking-tight dark:text-white">
-                      ₹2499
+                      ₹499
                     </span>
                   </p>
                   <p className="text-gray-600 mt-6 text-sm leading-7 dark:text-neutral-200 h-24 md:h-32 xl:h-24">
@@ -259,7 +259,7 @@ export default function Pricing() {
                       pause or cancel anytime
                     </span>
                     <span className="text-white text-4xl font-bold tracking-tight dark:text-white">
-                      ₹3599
+                      ₹1999
                     </span>
                   </p>
                   <p className="text-gray-300 mt-6 text-sm leading-7 dark:text-neutral-200 h-24 md:h-32 xl:h-24">
@@ -521,7 +521,7 @@ export default function Pricing() {
                       starts at
                     </span>
                     <span className="text-gray-900 text-4xl font-bold tracking-tight dark:text-white">
-                      ₹5499
+                      ₹3499
                     </span>
                   </p>
                   <p className="text-gray-600 mt-6 text-sm leading-7 dark:text-neutral-200 h-24 md:h-32 xl:h-24">
