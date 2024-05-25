@@ -55,7 +55,7 @@ export default function Home() {
   ];
   return (
     <>
-      <div className="relative pb-40 bg-black dark:bg-brand pt-20 md:pt-40 overflow-hidden px-2 rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+      <div className="relative pb-40 dark:bg-brand pt-20 md:pt-40 overflow-hidden px-2 rounded-md flex md:items-center md:justify-center dark:bg-black/[0.96] antialiased dark:bg-grid-white/[0.02] bg-grid-black/[0.02] relative overflow-hidden">
         <Spotlight
           className="-top-40 left-0 md:left-60 md:-top-20"
           fill="white"
@@ -91,7 +91,7 @@ export default function Home() {
               </svg>
               <h1 className="text-3xl md:text-7xl font-bold mb-6 relative text-left dark:text-zinc-100 text-zinc-700 max-w-4xl">
                 <span
-                  className="tracking-tighter	text-4xl md:text-7xl font-bold text-start bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50"
+                  className="tracking-tighter	text-4xl md:text-7xl font-bold text-start text-black dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-b dark:from-neutral-50 dark:to-neutral-400 bg-opacity-50"
                   data-brr="1"
                 >
                   Make your websites <br />

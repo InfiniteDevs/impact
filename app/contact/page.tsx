@@ -1,5 +1,4 @@
 "use client";
-import axios from "axios";
 import React, { useRef, useState, useEffect } from "react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
@@ -94,7 +93,7 @@ export default function ContactForm() {
   };
   return (
     <div className="mt-16 mb-16">
-      <div className="h-screen flex items-center justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+      <div className="h-screen flex items-center justify-center dark:bg-black/[0.96] antialiased dark:bg-grid-white/[0.02] bg-grid-black/[0.02] relative overflow-hidden">
         <div className="dark:border-white/[0.2] border border-transparent max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
           <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
             Welcome to Impact Studios
