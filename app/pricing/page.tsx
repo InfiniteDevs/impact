@@ -41,7 +41,7 @@ export default function Pricing() {
                       pause or cancel anytime
                     </span>
                     <span className="text-gray-900 text-4xl font-bold tracking-tight dark:text-white">
-                      ₹499
+                      $6
                     </span>
                   </p>
                   <p className="text-gray-600 mt-6 text-sm leading-7 dark:text-neutral-200 h-24 md:h-32 xl:h-24">
@@ -246,7 +246,7 @@ export default function Pricing() {
               </div>
             </BackgroundGradient>
             <BackgroundGradient className="rounded-[22px]">
-              <div className="relative bg-[radial-gradient(164.75%_100%_at_50%_0%,#334155_0%,#0F172A_48.73%)]  shadow-2xl rounded-3xl px-6 py-8 ring-1 ring-gray-900/10 sm:mx-8 lg:mx-0 border border-transparent h-full flex flex-col justify-between">
+              <div className="relative dark:bg-black dark:border-white/[0.2] bg-white/60 shadow-2xl rounded-3xl px-6 py-8 ring-1 ring-gray-900/10 sm:mx-8 lg:mx-0 border border-transparent h-full flex flex-col justify-between">
                 <div className="">
                   <h3
                     id="tier-pages-page"
@@ -259,7 +259,7 @@ export default function Pricing() {
                       pause or cancel anytime
                     </span>
                     <span className="text-white text-4xl font-bold tracking-tight dark:text-white">
-                      ₹1999
+                      $24
                     </span>
                   </p>
                   <p className="text-gray-300 mt-6 text-sm leading-7 dark:text-neutral-200 h-24 md:h-32 xl:h-24">
@@ -378,50 +378,6 @@ export default function Pricing() {
                           strokeWidth="0"
                         ></path>
                       </svg>
-                      CMS integration
-                    </li>
-                    <li className="flex gap-x-3">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="text-emerald-400 h-6 w-5 flex-none"
-                        aria-hidden="true"
-                      >
-                        <path
-                          d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z"
-                          fill="currentColor"
-                          strokeWidth="0"
-                        ></path>
-                      </svg>
-                      Search Engine Optimization
-                    </li>
-                    <li className="flex gap-x-3">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="text-emerald-400 h-6 w-5 flex-none"
-                        aria-hidden="true"
-                      >
-                        <path
-                          d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z"
-                          fill="currentColor"
-                          strokeWidth="0"
-                        ></path>
-                      </svg>
                       24-hour support response time
                     </li>
                     <li className="flex gap-x-3">
@@ -506,7 +462,7 @@ export default function Pricing() {
                   </button>
                 </div>
               </div>
-            </BackgroundGradient>{" "}
+            </BackgroundGradient>
             <BackgroundGradient className="rounded-[22px]">
               <div className="dark:bg-black dark:border-white/[0.2] bg-white/60  rounded-3xl px-6 py-8 ring-1 ring-gray-900/10 sm:mx-8 lg:mx-0 border border-transparent h-full flex flex-col justify-between">
                 <div className="">
@@ -521,7 +477,7 @@ export default function Pricing() {
                       starts at
                     </span>
                     <span className="text-gray-900 text-4xl font-bold tracking-tight dark:text-white">
-                      ₹3499
+                      $42
                     </span>
                   </p>
                   <p className="text-gray-600 mt-6 text-sm leading-7 dark:text-neutral-200 h-24 md:h-32 xl:h-24">
